@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_USERSModelStoreContainer" CdmEntityContainer="DB_USERSEntities">
+    <EntitySetMapping Name="Articles">
+      <EntityTypeMapping TypeName="DB_USERSModel.Article">
+        <MappingFragment StoreEntitySet="Articles">
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="commentApproval" ColumnName="commentApproval" />
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="ArticleContent" ColumnName="ArticleContent" />
+          <ScalarProperty Name="ArticleCategory" ColumnName="ArticleCategory" />
+          <ScalarProperty Name="ArticleName" ColumnName="ArticleName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
